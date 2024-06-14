@@ -1,4 +1,4 @@
-# First-Line
+# First-Line Team
 Image classification(2024 spring)  
 스푸핑 이미지와 실제 이미지를 분류하는 AI 모델 개발  
 <br>
