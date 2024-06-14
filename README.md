@@ -13,7 +13,7 @@ Image classification(2024 spring)
 | Model 1 | RandAugment | OneCycleLR(epochs=15) | 98.12% |
 | Model 2 | RandAugment | OneCycleLR(epochs=7) | 98.00% |
 | Model 3 | JpegCompression & ColorJitter & RandomPerspective & RandomHorizontalFlip | Crop20 - Remove bottom 20%(1080*1920) | 96.87% |
-| Model 4 | Resize(380d), CenterCrop(380), JpegCompression, RandomRotation, RandomHorizontalFlip, ColorJitter | OneCycleLR(epochs=7) | 97.37% |
+| Model 4 | JpegCompression, RandomRotation, RandomHorizontalFlip, ColorJitter | Resize(380d), CenterCrop(380), OneCycleLR(epochs=7) | 97.37% |
 | Model 5 | JpegCompression & ColorJitter | Resize(380down) & CenterCrop(380up) | 96.5% |
 <br>
 <br>
