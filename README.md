@@ -10,10 +10,10 @@ Image classification(2024 spring)
 
 | Model | agumentation | Notes | Accuracy(Public) |
 |-------|--------------|-------|----------|
-| Model 1 | Yes | - | 92.3% |
-| Model 2 | No | - | 90.5% |
-| Model 3 | Yes | Improved data handling | 93.1% |
-| Model 4 | No | - | 89.9% |
+| Model 1 |  | - | 98.12% |
+| Model 2 |  | - | 98.00% |
+| Model 3 |  | - | 96.87% |
+| Model 4 |  | - | 97.37% |
 | Model 5 | JpegCompression & ColorJitter | Resize(380down) & CenterCrop(380up) | 96.5% |
 <br>
 <br>
