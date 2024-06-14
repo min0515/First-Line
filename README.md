@@ -27,8 +27,8 @@ Image classification(2024 spring)
 <br>
   
 ### Test
-1. 'pth' 파일이 존재하는 경로에서 가중치를 불러옵니다.
-2.  테스트 코드를 실행 후 submission 파일을 저장합니다.
+1. model_path에 'pth' 파일이 존재하는 경로를 지정합니다.
+2. 테스트 코드를 실행 후 submission 파일을 저장합니다.
 (submission_model(모델번호).csv로 생성됌)
 <br>
   
