@@ -2,10 +2,8 @@
 Image classification(2024 spring)  
 스푸핑 이미지와 실제 이미지를 분류하는 AI 모델 개발  
 <br>
-<br>
 ### Environment
 캐글 및 코랩  
-<br>
 <br>
 ### Experiment
 총 5개의 모델을 앙상블 했으며, 각 모델은 독립적인 파일에서 학습 및 테스트 진행이 필요합니다.
@@ -17,8 +15,6 @@ Image classification(2024 spring)
 | Model 3 | Yes | Improved data handling | 93.1% |
 | Model 4 | No | - | 89.9% |
 | Model 5 | JpegCompression & ColorJitter | Resize(380down) & CenterCrop(380up) | 96.5% |
-<br>
-<br>
 <br>
 <br>
 
