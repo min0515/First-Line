@@ -45,7 +45,7 @@ Image classification(2024 spring)
 
   
 최종 정확도는 다음과 같습니다.
-| Publick | Private |
+| Public | Private |
 |----------|----------|
 | 98.65%   | 97.66%  |
 
