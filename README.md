@@ -8,11 +8,11 @@ Image classification(2024 spring)
 ### Experiment
 총 5개의 모델을 앙상블 했으며, 각 모델은 독립적인 파일에서 학습 및 테스트 진행이 필요합니다.
 
-| Model | agumentation | Notes | Accuracy(Public) |
+| Model | augmentation | Notes | Accuracy(Public) |
 |-------|--------------|-------|----------|
 | Model 1 | RandAugment | OneCycleLR(epochs=15) | 98.12% |
 | Model 2 | RandAugment | OneCycleLR(epochs=7) | 98.00% |
-| Model 3 | JpegCompression & ColorJitter | Crop20 - Remove bottom 20%(1080*1920) | 96.87% |
+| Model 3 | JpegCompression & ColorJitter & RandomPerspective & RandomHorizontalFlip | Crop20 - Remove bottom 20%(1080*1920) | 96.87% |
 | Model 4 |  | - | 97.37% |
 | Model 5 | JpegCompression & ColorJitter | Resize(380down) & CenterCrop(380up) | 96.5% |
 <br>
